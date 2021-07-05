@@ -464,7 +464,7 @@ footer ul {
   }
 
   .quotes {
-    height: 200vh;
+    height: 170vh;
     background: hsl(218, 28%, 13%);
     position: relative;
   }
@@ -490,7 +490,7 @@ footer ul {
 
   .index-card {
     position: absolute;
-    bottom: 77em;
+    bottom: 66em;
     left: 1.3em;
     padding-top: 2em;
     height: 350px;
