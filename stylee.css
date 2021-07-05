@@ -446,7 +446,7 @@ footer ul {
   }
 
   .productive-about {
-    height: 80vh;
+    height: 100vh;
   }
 
   .about {
@@ -521,7 +521,7 @@ footer ul {
   footer {
     position: relative;
     background: hsl(216, 53%, 9%);
-    height: 150vh;
+    height: 170vh;
   }
 
   .footer-center {
