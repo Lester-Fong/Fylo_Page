@@ -44,49 +44,6 @@ Users should be able to:
 
 I learned a lot about making your website responsive. It is my first making a website that is compatible with phone. This challenge improves my skills.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-<script
-  src="https://kit.fontawesome.com/de376feec1.js"
-  crossorigin="anonymous"
-></script>
-```
-
-```css
-.proud-of-this-css {
-  :root {
-    /** Primary */
-    --intro-email-background: hsl(217, 28%, 15%);
-    --main-background: hsl(218, 28%, 13%);
-    --footer-background: hsl(216, 53%, 9%);
-    --testimonials-background: hsl(219, 30%, 18%);
-    /** Accent */
-    --cta-light: hsl(176, 68%, 64%);
-    --cta-dark: hsl(198, 60%, 50%);
-    /** Neutral */
-    --font-color: hsl(0, 0%, 100%);
-  }
-}
-```
-
-```js
-const proudOfThisFunc = function checkInputs() {
-  //get values from the inputs
-  const emailValue = email.value.trim();
-
-  if (emailValue === "") {
-    //show error
-    // add error class
-    setErrorFor(email, "Please enter a valid email address");
-  } else if (!isEmail(emailValue)) {
-    setErrorFor(email, "Please enter a valid email address");
-  } else {
-    //add success class
-    setSuccessFor(email);
-  }
-};
-```
-
 ### Continued development
 
 For my future projects I want to try some projects wherein I got to test my javascript skills and then learn more about animations and try some css frameworks.
