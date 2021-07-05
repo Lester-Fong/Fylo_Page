@@ -443,10 +443,12 @@ footer ul {
 
   .feature {
     height: 170vh;
+    display: block;
   }
 
   .productive-about {
     height: 100vh;
+    display: block;
   }
 
   .about {
@@ -519,6 +521,7 @@ footer ul {
   }
 
   footer {
+    display: block;
     position: relative;
     background: hsl(216, 53%, 9%);
     height: 170vh;
