@@ -26,16 +26,11 @@ body {
   height: 150px;
 }
 
-/* .logo {
-  border: 2px solid red;
-} */
-
 ul {
   display: flex;
   align-content: center;
   justify-content: center;
   list-style-type: none;
-  /* border: 2px solid red; */
 }
 ul li a {
   margin: 0 1.4em;
@@ -63,7 +58,7 @@ ul li a:hover::after {
 /* ----header design--- */
 
 header {
-  background-image: url("/fylo-dark-theme-landing-page-master/images/bg-curvy-desktop.svg");
+  background-image: url("./fylo/images/bg-curvy-desktop.svg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
@@ -421,6 +416,13 @@ footer ul {
 /* ------media queries----- */
 
 @media screen and (max-width: 655px) {
+  header {
+    background-image: url("./fylo/images/bg-curvy-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+  }
+
   .navigation {
     height: 100px;
     font-size: 0.6rem;
